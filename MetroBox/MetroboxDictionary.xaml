@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MetroBox">
+
+  <SolidColorBrush x:Key="ButtonBackgroundThemeBrush" Color="#FFBED700" />
+  <SolidColorBrush x:Key="ButtonBorderThemeBrush" Color="#FFBED700" />
+  <SolidColorBrush x:Key="ButtonDisabledBackgroundThemeBrush" Color="Transparent" />
+  <SolidColorBrush x:Key="ButtonDisabledBorderThemeBrush" Color="#66BED700" />
+  <SolidColorBrush x:Key="ButtonDisabledForegroundThemeBrush" Color="#66454545" />
+  <SolidColorBrush x:Key="ButtonForegroundThemeBrush" Color="#FF454545" />
+  <SolidColorBrush x:Key="ButtonPointerOverBackgroundThemeBrush" Color="#21BED700" />
+  <SolidColorBrush x:Key="ButtonPointerOverForegroundThemeBrush" Color="#FFFFFFFF" />
+  <SolidColorBrush x:Key="ButtonPressedBackgroundThemeBrush" Color="#FFFFFFFF" />
+  <SolidColorBrush x:Key="ButtonPressedForegroundThemeBrush" Color="#FFBED700" />
+  <Thickness x:Key="ButtonBorderThemeThickness">0</Thickness>
+
+  <FontFamily x:Key="ContentControlThemeFontFamily">Segoe UI</FontFamily>
+  <!--<FontFamily x:Key="ContentControlThemeFontFamily">Calibri</FontFamily>-->
+
+
+
+</ResourceDictionary>

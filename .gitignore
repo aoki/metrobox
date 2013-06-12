@@ -1,0 +1,17 @@
+*.*~
+
+# File System Cash
+thumb.db
+Thumbs.db
+.DS_Store
+
+# Visual Studio related files and folders
+AppPackages
+Debug
+Release
+Generated\ Files
+ipch
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
