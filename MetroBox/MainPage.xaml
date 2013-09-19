@@ -37,6 +37,7 @@
         <TextBlock Text="実験した結果たち List" FontSize="40" Foreground="#FFBED700" FontFamily="Fonts/YUGOTHICREGULAR.TTF#Yu Gothic"/>
         <Button x:Name="GoToTaskPage" Content="Task!!" Click="GoToTaskPage_Click" FontWeight="Light" Width="400" Height="60" HorizontalContentAlignment="Left" FontSize="24" />
         <Button x:Name="GoToDragPage" Content="Drag!!" Click="GoToDragPage_Click" FontWeight="Light" Width="400" Height="60" HorizontalContentAlignment="Left" FontSize="24"/>
+        <Button x:Name="GoToSearchPage" Content="Search!!" Click="GoToSearchPage_Click" FontWeight="Light" Width="400" Height="60" HorizontalContentAlignment="Left" FontSize="24"/>
       </StackPanel>
     </Grid>
 

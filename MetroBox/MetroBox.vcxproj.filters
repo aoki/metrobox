@@ -50,6 +50,12 @@
     </ClCompile>
     <ClCompile Include="Drag.xaml.cpp" />
     <ClCompile Include="Task.xaml.cpp" />
+    <ClCompile Include="Common\NavigationHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RelayCommand.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -75,6 +81,12 @@
     </ClInclude>
     <ClInclude Include="Drag.xaml.h" />
     <ClInclude Include="Task.xaml.h" />
+    <ClInclude Include="Common\NavigationHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RelayCommand.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -94,6 +106,9 @@
       <Filter>Pages</Filter>
     </Page>
     <Page Include="MetroboxDictionary.xaml" />
+    <Page Include="SearchBoxSample.xaml">
+      <Filter>Pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Common\ReadMe.txt">

@@ -49,3 +49,9 @@ void MetroBox::MainPage::GoToDragPage_Click(Platform::Object^ sender, Windows::U
 	using namespace Windows::UI::Xaml::Interop;
 	Frame->Navigate(TypeName(MetroBox::Drag::typeid));
 }
+
+
+void MetroBox::MainPage::GoToSearchPage_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e) {
+	using namespace Windows::UI::Xaml::Interop;
+	Frame->Navigate(TypeName(MetroBox::SearchBoxSample::typeid));
+}

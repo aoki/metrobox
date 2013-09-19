@@ -8,6 +8,7 @@
 #include "MainPage.g.h"
 #include "Task.xaml.h"
 #include "Drag.xaml.h"
+#include "SearchBoxSample.xaml.h"
 
 namespace MetroBox
 {
@@ -24,5 +25,6 @@ namespace MetroBox
 	private:
 		void GoToTaskPage_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void GoToDragPage_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void GoToSearchPage_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
