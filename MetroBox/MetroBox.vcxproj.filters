@@ -48,6 +48,8 @@
     <ClCompile Include="Common\SuspensionManager.cpp">
       <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="Drag.xaml.cpp" />
+    <ClCompile Include="Task.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -71,6 +73,8 @@
     <ClInclude Include="Common\SuspensionManager.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="Drag.xaml.h" />
+    <ClInclude Include="Task.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
